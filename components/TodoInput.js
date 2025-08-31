@@ -20,7 +20,7 @@ const TodoInput = ({ onAdd }) => {
 
         <button 
             onClick={ handleAdd }
-            className="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600"
+            className="bg-teal-600 cursor-pointer transform outline-none text-white px-4 py-2 rounded hover:bg-teal-900"
         >
             Add
         </button>
